@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Prova2 Atores de Cinema</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="buttonCadastrar">Cadastrar</string>
+    <string name="formName">Name</string>
+    <string name="sobre">Mais sobre</string>
+    <string name="nacionalidade">Nacionalidade</string>
+    <string name="datanacimento">Nascimento</string>
+    <string name="indicacao">Indicações Oscar</string>
+    <string name="idade">Idade</string>
+    <string name="oscar">Oscars</string>
+    <string name="cadastra">Cadastrar</string>
+    <string name="desenvolvedor">Dimítrio</string>
+    <string name="temaprova">Atores de Cinema</string>
+
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".CadastraFragment">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:text="@string/buttonCadastrar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/formName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.47"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/editTextNacionalidade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/nacionalidade"
+            app:layout_constraintStart_toStartOf="@+id/editTextName"
+            app:layout_constraintTop_toBottomOf="@+id/editTextName"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/editTextDatanacimento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/datanacimento"
+            app:layout_constraintStart_toStartOf="@+id/editTextNacionalidade"
+            app:layout_constraintTop_toBottomOf="@+id/editTextNacionalidade"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/editTextIndicacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/oscar"
+            app:layout_constraintStart_toStartOf="@+id/editTextDatanacimento"
+            app:layout_constraintTop_toBottomOf="@+id/editTextDatanacimento"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/editTextIdade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/idade"
+            android:inputType="number"
+            android:maxLength="4"
+            app:layout_constraintStart_toStartOf="@+id/editTextIndicacao"
+            app:layout_constraintTop_toBottomOf="@+id/editTextIndicacao" />
+
+        <EditText
+            android:id="@+id/editTextOscar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/oscar"
+            android:inputType="number"
+            android:maxLength="2"
+            app:layout_constraintStart_toStartOf="@+id/editTextIdade"
+            app:layout_constraintTop_toBottomOf="@+id/editTextIdade" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
